@@ -11,6 +11,7 @@ export interface Partitura{
     tieneFinale: boolean
     tieneAudio: boolean 
     tieneDestacado: boolean
+    uuidCode: string
     categoria?: Categoria
 }
 

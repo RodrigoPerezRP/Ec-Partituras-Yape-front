@@ -28,6 +28,9 @@
         <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
           {{ partitura.nombre }}
         </h1>
+        <h1 class="text-3xl lg:text-sm font-bold text-gray-900 leading-tight cursor-pointer" (click)="copyHash(partitura.uuidCode)">
+          {{ partitura.uuidCode }}
+        </h1>
 
         <div class="flex flex-wrap items-center gap-3">
           <div class="flex items-center text-gray-600">

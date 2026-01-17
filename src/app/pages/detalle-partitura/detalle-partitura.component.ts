@@ -48,5 +48,9 @@ export class DetallePartituraComponent implements OnInit {
     this.showModalYape = false
   }
 
+  copyHash(code: string){
+    navigator.clipboard.writeText(code)
+  }
+
 
 }
